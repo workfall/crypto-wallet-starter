@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  padding: 50px;
+  border: 2px solid #ededed;
+  border-radius: 25px;
+  max-width: 600px;
+}
+
+.btn {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.box{
+  border: 1px solid #ededed;
+  padding: 5px;
+  border-radius: 10px;
+  
+}

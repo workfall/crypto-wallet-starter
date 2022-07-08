@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import * as React from "react";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { NextUIProvider } from "@nextui-org/react";
+
+export default function App({ Component }) {
+  return (
+    <NextUIProvider>
+      <Component />
+    </NextUIProvider>
+  );
 }
-
-export default MyApp
